@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MidGame</class>
+ <widget class="QWidget" name="MidGame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MidGame</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_to_start">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>220</y>
+     <width>181</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>return to start</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>quit</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>quit</sender>
+   <signal>clicked()</signal>
+   <receiver>MidGame</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>43</x>
+     <y>8</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>134</x>
+     <y>3</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

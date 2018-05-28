@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LowGame</class>
+ <widget class="QWidget" name="LowGame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>562</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LowGame</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_to_start">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>270</y>
+     <width>100</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>quit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>100</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>200</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>300</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>400</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_10">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>0</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>100</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>200</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>300</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>400</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_15">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>0</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/tuoliyi2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_14">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>100</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_13">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>200</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_12">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>300</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>400</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+         border-image: url(:/new/prefix1/tuoliyi1.PNG);
+       </string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_20">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>0</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_19">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>100</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_18">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>200</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_17">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>300</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_16">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>400</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_25">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>0</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_24">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>100</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_23">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>200</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_22">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>300</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_21">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>400</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="card_3">
+   <property name="geometry">
+    <rect>
+     <x>525</x>
+     <y>0</y>
+     <width>100</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="card_4">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>0</y>
+     <width>100</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="card_1">
+   <property name="geometry">
+    <rect>
+     <x>525</x>
+     <y>340</y>
+     <width>100</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="card_2">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>340</y>
+     <width>100</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="card_5">
+   <property name="geometry">
+    <rect>
+     <x>525</x>
+     <y>170</y>
+     <width>100</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="omiuji_2">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>425</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Onitama/Resources/Omiuji1.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ghost_2_1">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>425</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Onitama/Resources/Ghost1.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ghost_2_2">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>425</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Onitama/Resources/Ghost1.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ghost_2_3">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>425</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Onitama/Resources/Ghost1.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ghost_2_4">
+   <property name="geometry">
+    <rect>
+     <x>325</x>
+     <y>425</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Onitama/Resources/Ghost1.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="omiuji_1">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>25</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Onitama/Resources/Omiuji2.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ghost_1_1">
+   <property name="geometry">
+    <rect>
+     <x>325</x>
+     <y>25</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Onitama/Resources/Ghost2.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ghost_1_2">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>25</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Onitama/Resources/Ghost2.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ghost_1_3">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>25</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Onitama/Resources/Ghost2.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ghost_1_4">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>25</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/Onitama/Resources/Ghost2.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_skip">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>190</y>
+     <width>100</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>skip</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>520</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>playing...</string>
+   </property>
+  </widget>
+  <zorder>pushButton_to_start</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_1</zorder>
+  <zorder>pushButton_10</zorder>
+  <zorder>pushButton_9</zorder>
+  <zorder>pushButton_8</zorder>
+  <zorder>pushButton_7</zorder>
+  <zorder>pushButton_6</zorder>
+  <zorder>pushButton_15</zorder>
+  <zorder>pushButton_14</zorder>
+  <zorder>pushButton_13</zorder>
+  <zorder>pushButton_12</zorder>
+  <zorder>pushButton_11</zorder>
+  <zorder>pushButton_20</zorder>
+  <zorder>pushButton_19</zorder>
+  <zorder>pushButton_18</zorder>
+  <zorder>pushButton_17</zorder>
+  <zorder>pushButton_16</zorder>
+  <zorder>pushButton_25</zorder>
+  <zorder>pushButton_24</zorder>
+  <zorder>pushButton_23</zorder>
+  <zorder>pushButton_22</zorder>
+  <zorder>pushButton_21</zorder>
+  <zorder>card_3</zorder>
+  <zorder>card_4</zorder>
+  <zorder>card_1</zorder>
+  <zorder>card_2</zorder>
+  <zorder>card_5</zorder>
+  <zorder>omiuji_2</zorder>
+  <zorder>ghost_2_1</zorder>
+  <zorder>ghost_2_2</zorder>
+  <zorder>ghost_2_4</zorder>
+  <zorder>omiuji_1</zorder>
+  <zorder>ghost_1_1</zorder>
+  <zorder>ghost_1_2</zorder>
+  <zorder>ghost_1_3</zorder>
+  <zorder>ghost_1_4</zorder>
+  <zorder>pushButton_skip</zorder>
+  <zorder>ghost_2_3</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Onitama.qrc"/>
+ </resources>
+ <connections/>
+ <slots>
+  <slot>slot1()</slot>
+ </slots>
+</ui>
